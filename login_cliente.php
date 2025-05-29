@@ -13,7 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($cliente && password_verify($senha, $cliente['senha'])) {
         $_SESSION['cliente'] = $cliente['nome'];
-        header('Location: produtos.php');
+        $_SESSION['cliente_id'] = $cliente['id'];
+        header('Location: index.php');
         exit;
     } else {
         $erro = "E-mail ou senha inválidos!";
