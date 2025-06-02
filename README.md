@@ -1,5 +1,7 @@
 # BigGym
 
+> Este projeto foi desenvolvido como parte das atividades acadêmicas da faculdade.
+
 Sistema web para gerenciamento de academia, com área do cliente, área administrativa, controle de produtos, planos, funcionários, serviços e muito mais.
 
 ## Funcionalidades
